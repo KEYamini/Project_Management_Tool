@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Project Management Tool</h1>
+    </div>
+    <div id="project-list">
+        <h2>Projects</h2>
+        <ul id="projects"></ul>
+    </div>
+    <div id="task-list">
+        <h2>Tasks</h2>
+        <ul id="tasks"></ul>
+    </div>
+    <div id="add-project-form">
+        <h2>Add Project</h2>
+        <input type="text" id="project-name" placeholder="Project Name">
+        <button onclick="addProject()">Create Project</button>
+    </div>
+    <div id="add-task-form">
+        <h2>Add Task</h2>
+        <input type="text" id="task-name" placeholder="Task Name">
+        <select id="project-select">
+            <option value="default">Select Project</option>
+        </select>
+        <button onclick="addTask()">Create Task</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
