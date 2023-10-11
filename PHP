@@ -1,0 +1,5 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Handle task assignment and storage here
+}
+?>
