@@ -1,0 +1,26 @@
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#project-list, #task-list, #add-project-form, #add-task-form {
+    float: left;
+    width: 25%;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    display: block;
+    margin: 5px 0;
+}
